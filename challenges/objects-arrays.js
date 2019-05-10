@@ -160,7 +160,7 @@ let populationTotal = [];
     populationTotal.push(pop);
     })
 
-let population = populationTotal.reduce(function(acc, value){
+let population = populationTotal.reduce(function(acc, value)  {
     return acc + value;
 })
 console.log(population);
