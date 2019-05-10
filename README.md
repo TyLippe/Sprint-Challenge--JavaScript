@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.foreach will run a function for each element in an array, while .map will create a new array and run a function on them while transfering them in.
+
 2. What is the difference between a function and a method?
+
+A functuion is a code that is called within the code, while a method is a function that is built inside of an object.
 
 3. What is closure?
 
+A closure is a function with the varibales nested on the inside, this can be used for an added secuirty.
+
 4. Describe the four rules of the 'this' keyword.
 
+Implicit Binding: Occurs whena dot notation is used to invoke a function.
+Explicit Binding: Ocurs when .call, .apply, or .bind are used on a function.
+Window Binding: Used when a global element is called upon and no other rules apply
+new Binding: Occurs when the function was called with a 'new' and 'this' referencing a new object.
+
 5. Why do we need super() in an extended class?
+
+After use of an extended class, super takes place of the object.create to pull prototypes.
 
 ## Project Set up
 
@@ -53,9 +66,9 @@ Follow these steps to set up and work on your project:
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by  merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [x] Add your Project Manager as a Reviewer on the Pull-request
+- [x] PM then will count the HW as done by  merging the branch back into master.
 
 
 ## Minimum Viable Product
@@ -66,7 +79,7 @@ Your finished project must include all of the following requirements:
 
 ## Task 1: Objects and Arrays
 Test your knowledge of objects and arrays. 
-* [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
+* [x] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
 This challenge takes a look at callbacks and closures as well as scope. 
